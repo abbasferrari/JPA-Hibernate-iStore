@@ -16,7 +16,7 @@ import jdk.internal.org.jline.utils.Log;
 @SpringBootApplication
 public class IstoreJpaApplication {
 
-	public static void main(String[] args) extends SpringBootServletInitializer{
+	public static void main(String[] args){
 		SpringApplication.run(IstoreJpaApplication.class, args);
 	}
 
