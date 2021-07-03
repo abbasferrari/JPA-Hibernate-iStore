@@ -14,6 +14,13 @@ import istorejpa.istorejpa.Repo.UserRepo;
 
 @SpringBootApplication
 public class IstoreJpaApplication extends SpringBootServletInitializer {
+	
+	
+	@Override
+    	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+        	return application.sources(IstoreJpaApplication.class);
+    	}
+
 
 	public static void main(String[] args) {
 		SpringApplication.run(IstoreJpaApplication.class, args);
