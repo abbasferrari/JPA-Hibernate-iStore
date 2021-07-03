@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar target/dependency/istore-jpa.jar --port $PORT target/istore-jpa.war
+web: java $JAVA_OPTS -jar target/dependency/istore-jpa.jar -Dserver.port=$PORT target/istore-jpa.war
