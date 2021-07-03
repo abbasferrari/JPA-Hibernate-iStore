@@ -17,7 +17,6 @@ import istorejpa.istorejpa.Repo.ItemRepo;
 import istorejpa.istorejpa.Repo.UserRepo;
 
 @RestController
-//@CrossOrigin(origins = "http://localhost:4200")
 @CrossOrigin(origins = "http://117.216.103.253:4200")
 public class ItemController {
 
