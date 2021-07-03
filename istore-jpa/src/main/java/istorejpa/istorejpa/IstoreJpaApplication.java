@@ -11,7 +11,6 @@ import istorejpa.istorejpa.Models.User;
 import istorejpa.istorejpa.Repo.ItemRepo;
 import istorejpa.istorejpa.Repo.TransactionRepo;
 import istorejpa.istorejpa.Repo.UserRepo;
-import jdk.internal.org.jline.utils.Log;
 
 @SpringBootApplication
 public class IstoreJpaApplication {
