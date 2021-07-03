@@ -25,12 +25,8 @@ public class IstoreJpaApplication {
 	public CommandLineRunner runner(UserRepo uRepo, ItemRepo iRepo, TransactionRepo tRepo) {
 		return r -> {
 			
-			
-			
-			//uRepo.save(new User("abbas@gmail.com","abbas2508","Mohamed Abbas","IND","12345","95xxxxxxx"));
-			uRepo.save(new User("abbas12@gmail.com","abbas12508","Mohamed Abbas","IND","12345","95xxxxxxx"));
-			uRepo.save(new User("abbas23@gmail.com","abbas22508","Mohamed Abbas","IND","12345","95xxxxxxx"));
-			uRepo.save(new User("abbas34@gmail.com","abbas32508","Mohamed Abbas","IND","12345","95xxxxxxx"));
+			uRepo.save(new User("abbas23@gmail.com","abbas22508","Mohamed Abbas","IND","12345","9"));
+			uRepo.save(new User("abbas34@gmail.com","abbas32508","Mohamed Abbas","IND","12345","9"));
 			
 			iRepo.save(new Item(101,"bottle","750ml","Utilities",750.00,uRepo.findById("abbas2508")));
 			iRepo.save(new Item(102,"bottle","750ml","Utilities",750.00,uRepo.findById("abbas2508")));
