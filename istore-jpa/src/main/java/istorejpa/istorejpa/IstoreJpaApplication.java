@@ -13,7 +13,7 @@ import istorejpa.istorejpa.Repo.TransactionRepo;
 import istorejpa.istorejpa.Repo.UserRepo;
 
 @SpringBootApplication
-public class IstoreJpaApplication {
+public class IstoreJpaApplication extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
 		SpringApplication.run(IstoreJpaApplication.class, args);
