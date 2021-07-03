@@ -1,9 +1,9 @@
 package istorejpa.istorejpa;
 
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
+import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 import istorejpa.istorejpa.Models.Item;
 import istorejpa.istorejpa.Models.OrderTransaction;
@@ -13,7 +13,12 @@ import istorejpa.istorejpa.Repo.TransactionRepo;
 import istorejpa.istorejpa.Repo.UserRepo;
 
 @SpringBootApplication
-public class IstoreJpaApplication{
+public class IstoreJpaApplication extends SpringBootServletInitializer {
+
+	@Override
+	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+		return application.sources(IstoreJpaApplication.class);
+	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(IstoreJpaApplication.class, args);
