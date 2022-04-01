@@ -17,7 +17,7 @@ import istorejpa.istorejpa.Repo.ItemRepo;
 import istorejpa.istorejpa.Repo.UserRepo;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://istore-angular.herokuapp.com")
 public class ItemController {
 
 @Autowired
