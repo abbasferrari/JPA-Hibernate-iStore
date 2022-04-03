@@ -18,7 +18,7 @@ import istorejpa.istorejpa.Repo.UserRepo;
 
 
 @RestController
-@CrossOrigin(origins = "https://istore-angular.herokuapp.com")
+//@CrossOrigin(origins = "https://istore-angular.herokuapp.com")
 public class UserController {
 
 	
