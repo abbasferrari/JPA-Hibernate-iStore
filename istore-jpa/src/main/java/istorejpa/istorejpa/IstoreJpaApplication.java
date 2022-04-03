@@ -13,12 +13,13 @@ import istorejpa.istorejpa.Repo.TransactionRepo;
 import istorejpa.istorejpa.Repo.UserRepo;
 
 @SpringBootApplication
+@PropertySource("classpath:application-${spring.profiles.active:default}.properties")
 public class IstoreJpaApplication extends SpringBootServletInitializer {
 
-	@Override
-	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(IstoreJpaApplication.class);
-	}
+// 	@Override
+// 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+// 		return application.sources(IstoreJpaApplication.class);
+// 	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(IstoreJpaApplication.class, args);
