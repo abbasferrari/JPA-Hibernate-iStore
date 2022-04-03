@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>istore-jpa</groupId>
 	<artifactId>istore-jpa</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<name>istore-jpa</name>
 	<packaging>war</packaging>
 	<description>iStore backend migration to JPA</description>
