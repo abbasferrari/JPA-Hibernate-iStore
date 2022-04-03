@@ -1,2 +1,2 @@
-web: java -Xmx300m -Dspring.profiles.active=prod -Dserver.port=$PORT -jar build/libs/istore-jpa-0.0.1-SNAPSHOT.jar
+web: java -Xmx300m -Dserver.port=$PORT $JAVA_OPTS -jar target/istore-jpa-0.0.1-SNAPSHOT.jar
  
