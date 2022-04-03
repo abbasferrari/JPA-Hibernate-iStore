@@ -1,2 +1,2 @@
-web: java -Xmx300m -Dserver.port=$PORT $JAVA_OPTS -jar JPA-Hibernate-iStore/istore-jpa/target/*.jar
+web: java -Xmx300m -Dserver.port=$PORT $JAVA_OPTS -jar JPA-Hibernate-iStore/istore-jpa/target/*.war
  
